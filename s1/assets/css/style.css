@@ -7,3 +7,19 @@
 {
 	text-align: left;
 }
+
+.tablecontent
+{
+	text-align: center;
+	color: red;
+}
+
+th, td
+{
+	border: 1px solid black; 
+}
+
+table
+{
+	border-collapse: collapse;
+}
