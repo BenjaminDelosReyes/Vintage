@@ -1,0 +1,77 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*pseudo class*/
+a:link
+{
+	color: green;
+}
+
+input:focus
+{
+	background-color: yellow;
+}
+
+a:visited
+{
+	color: black;
+}
+a:hover, h1:hover
+{
+	color: blue;
+}
+
+a:active
+{
+	color: yellow;
+}
+
+/*pseudo elements*/
+#section2::first-line
+{
+	color: red;
+}
+
+p::first-letter
+{
+	font-size: xx-large;
+	font-weight: ;
+	font-style: italic;
+	color: #696969;
+	margin: 20px;
+}
+
+h1::before
+{
+	content: "♥";
+}
+h1::after
+{
+	content: "♥";
+}
+
+h2::selection
+{
+	color: yellow;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

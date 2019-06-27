@@ -10,8 +10,26 @@
 	<h1>Register Page</h1>
 
 
-	<form action="/backend">
+	<div id="parent">
+		<p>child 0</p>
+		<p id="child1"> first child
+		<span id="grandchild-1">1-1</span>
+		</p>
+		<div>div in between child and child2
+				<p>p in div</p>
+				<div>div in p</div>
+				<p>p2 in div</p>
+		</div>
+		<p>second child
+			<span id="grandchild2-1"> 2 - 1</span>
+		</p>
 
+		<p>
+			third paragraph
+		</p>
+	</div>
+
+	<form action="/backend">
 
 
 		<fieldset>
@@ -66,6 +84,7 @@
 		</fieldset>
 
 		<input type="submit" value="Register!">
+
 
 
 	</form>

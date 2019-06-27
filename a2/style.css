@@ -2,17 +2,39 @@ h1
 {
 	color: orangered;
 	font-family: Arial;
-	text-align: right;
+
 }
 
-.legendtag
-{
-	text-align: right;
-}
+
 
 [type ="text"]
 {
 	color: white;
 	background-color: yellow;
 }
+
+/*#<id name> + <anytags> (the plus sign is the combinator itself)*/
+ /*p + p + p 
+ {
+ 	color: red;
+ }*/
+
+/*
+ #child1 ~ div > p
+ {
+ 	background-color: green;
+ }*/
+
+/*child selector ( > )*/
+
+#parent div, #parent p
+{
+	background-color: green;
+}
+
+
+
+
+
+
 
