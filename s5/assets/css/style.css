@@ -1,0 +1,55 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1, p
+{
+	background-color: lightgrey;
+}
+
+em, strong
+{
+	background-color: lightblue;
+}
+
+h1
+{
+	/*padding: top right bottom left*/
+	padding: 10px 20px 30px 40px;
+	/*Border: size style color*/
+	border: 5px solid #696969;
+	margin-bottom: 40px;
+}
+
+p
+{
+	padding: 20px 10px;
+	margin: 50px;
+
+}
+
+strong
+{
+	margin: 5px;
+}
+
+
+#container
+{
+	background-color: skyblue;
+	padding: 20px;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 5px;
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+span
+{
+	color: red;
+	font-weight: bold;
+}
