@@ -59,8 +59,10 @@ div.divpanel1
 	display: inline-block;
 	background-color: white;
 	width: 880px;
-	height: 550px;
+	height: auto;
 	border-radius: 10px;
+	padding-bottom: 15px;
+
 }
 
 div.divpanel2
