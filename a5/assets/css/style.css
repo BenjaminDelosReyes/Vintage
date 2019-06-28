@@ -1,0 +1,133 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body
+{
+	font-family: Raleway , Verdana;
+	background-color: lightgrey;
+}
+
+img
+{
+	width: 50px;
+	height: 50px;
+}
+
+h1
+{
+	color: white;
+	font-size: 25px;
+	display: inline-block;
+}
+
+h3
+{
+	font-size: 15px;
+}
+
+
+img.ITpic
+{
+	width: 75px;
+	height: 75px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.innercontent
+{
+	display: inline-block;
+	width: 250px;
+}
+
+div.header
+{
+	background-color: #0084FF;
+	margin-bottom: 20px;
+}
+
+
+div.divpanel1
+{
+	margin: 0 250px;
+	margin-bottom: 10px;
+	display: inline-block;
+	background-color: white;
+	width: 880px;
+	height: 550px;
+	border-radius: 10px;
+}
+
+div.divpanel2
+{	
+	margin: 0 250px;
+	margin-bottom: 10px;
+	display: inline-block;
+	background-color: white;
+	width: 880px;
+	height: auto;
+	border-radius: 10px;
+	padding-bottom: 15px;
+}
+
+div h2
+{
+	padding-top: 25px;
+	padding-left: 15px;
+}
+
+div.topleftpanel
+{
+	width: 400px;
+	background-color: lightgrey;
+	margin-left: 30px;
+	margin-top: 20px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 15px;
+	border-radius: 5px;
+}
+
+p
+{
+	font-size: 12px;
+	margin: 2px;
+
+}
+
+
+div.toprightpanel
+{
+	width: 400px;
+	background-color: lightgrey;
+	margin-left: 25px;
+	margin-top: 20px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+
+img.team
+{
+	border: 1px solid red;
+	border-radius: 25px;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+

@@ -16,11 +16,12 @@ div.container
 {
 
 	background-color: white;
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
 	border-radius: 10px;
 	width: 500px;
-	margin: 5px auto;
+	margin: 0 auto;
 	padding: 5px;
+	font-family: "Open Sans", Verdana;
 
 }
 
@@ -31,13 +32,13 @@ div.container
 
 .chatcontainer
 {
-	border-top:1px solid black;
+	border-top:1px solid lightgrey;
 	padding-top: 5px;
 }
 
 .chatcontainer2
 {
-	border-top:1px solid black;
+	border-top:1px solid lightgrey;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -87,7 +88,7 @@ img
 	color: lightgrey;
 	padding-left: 5px;
 	padding-top: 10px;
-	width: auto;
+	width: 100%;
 	height: auto;
 
 }
@@ -115,3 +116,7 @@ p.centertime
 	color: black;
 }
 
+button
+{
+	padding: 15px 32px;
+}
