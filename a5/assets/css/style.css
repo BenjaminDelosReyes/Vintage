@@ -12,17 +12,18 @@ body
 	background-color: lightgrey;
 }
 
-img
+img.logo
 {
 	width: 50px;
 	height: 50px;
+	vertical-align: top;
 }
 
 h1
 {
 	color: white;
 	font-size: 25px;
-	display: inline-block;
+	vertical-align: middle;
 }
 
 h3
@@ -62,6 +63,7 @@ div.divpanel1
 	height: auto;
 	border-radius: 10px;
 	padding-bottom: 15px;
+
 
 }
 
